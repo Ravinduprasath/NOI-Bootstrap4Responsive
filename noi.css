@@ -1,0 +1,157 @@
+.imglogo{
+    width: 70px;
+}
+ 
+/*Yello underline on hover*/
+
+.navbar .navbar-nav .nav-link {
+    color: white;
+    border-bottom: 3px solid transparent;
+    font-size: 1.1em;
+    position: relative;
+    transition: all .5s ease-in;
+    height: 45px;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+  }
+  .navbar .navbar-nav .nav-link:hover {
+    color: #fbc02d;
+    border-color: #fbc02d;
+  }
+  .navbar .navbar-nav .nav-link::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    color: transparent;
+    width: 0%;
+    content: '.';
+    height: 3px;
+  }
+  .navbar .navbar-nav .nav-link:hover::after {
+    width: 100%;
+  }
+  
+  /*Change color of navbar*/
+
+  .navbar-custom {
+    background-color:#0b060a;
+  }
+
+  /* make visible toggler icon on black navbar*/
+
+  .navbar-toggler-icon{
+    background-image: url(images/menu.svg);
+  }
+  
+  .navbar-toggler{
+    border-color: white;
+  }
+
+  /*change dropdown menu and text colors*/
+
+  .navbar-nav > li > .dropdown-menu { 
+    background-color:  #0b060a;
+  }
+
+  .navbar-nav > li > .dropdown-menu a {
+    color: white;
+  }
+
+  .navbar-nav > li > .dropdown-menu a:hover{
+    color: #fbc02d;
+  }
+
+  .dropdown-menu > a:hover {
+    background-color:  #0b060a;
+  }
+
+  /*Make dropdown menu scrolable on mobile view*/
+ 
+  .dropdown-menu {
+    max-height:250px;
+    overflow:scroll; 
+  }
+
+
+  body {
+    margin-top: 40px;
+    font-family: 'Raleway',sans-serif;  
+  }
+
+  .almendra{
+    font-family: 'Almendra', serif !important;
+  }
+
+  .outerline{
+  color: white;
+  outline-style: solid;
+  outline-width: thick;
+  outline-offset: 10px;
+  }
+
+ .btn-warning{
+  background-color:#fbc02d ;
+  border-color:  #1c2833 ;
+  color: black;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  }
+
+  .card{
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  background-color:transparent;
+  margin:0 auto;
+  }
+
+  .col-centered{
+  float: none;
+  margin: 0 auto;
+  } 
+
+  .Team{
+  width: 10.5rem;
+  }
+
+  .Team:hover{
+  transform: scale(1.2);
+  }
+
+  .logo{
+  height:180px;
+  }
+
+  #footer{
+  min-height: 50px;
+  background-color: #000000  ;
+  color: white;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  }
+
+  p{
+  font-size: medium !important;
+  }
+
+  section div a{
+  font-size: 2rem;
+  bottom: 0px;
+  width:100vw;
+  margin-bottom:0;
+  }
+
+  .background{
+  background-image: url(images/background3.png);
+  background-size: cover;
+  padding: 0 !important;
+  }
+
+  .background2{
+  background-color: #100911;
+  }
